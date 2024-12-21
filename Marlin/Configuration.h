@@ -1865,7 +1865,7 @@
 #define Z_PROBE_FEEDRATE_FAST 600// HOMING_FEEDRATE_Z
 
 // Feedrate (mm/min) for the "accurate" probe of each point
-#define Z_PROBE_FEEDRATE_SLOW (Z_PROBE_FEEDRATE_FAST / 2)
+#define Z_PROBE_FEEDRATE_SLOW (Z_PROBE_FEEDRATE_FAST / 6)
 
 /**
  * Probe Activation Switch
